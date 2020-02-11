@@ -6,8 +6,8 @@ def display_board(the_board)
   puts " #{the_board[6]} | #{the_board[7]} | #{the_board[8]} "
 end
 
-def input_to_index(user_input)
-  user_input.to_i - 1
+def input_to_index(input)
+  input.to_i - 1
 end
 
 def move(board, index, player="X")
