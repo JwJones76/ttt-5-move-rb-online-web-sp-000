@@ -8,9 +8,9 @@ require_relative '../lib/move.rb'
   
   puts "Where would you like to go?"
   
-  index = input_to_index(user_input)
+  converted_input = input_to_index(input)
   
-  index = gets.strip
+  input = gets.strip
   
   move(board, index, "X")
   
